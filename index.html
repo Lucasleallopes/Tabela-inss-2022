@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela e impostao 2022</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section id="tudo">
+        <div id="corpo1">
+            <h1>Tabela INSS e Imposto de renda 2022</h1>
+            <input type="text" id="nome" class = "input" placeholder="Nome">
+            <input type="number" id="salario" class = "input" placeholder="Salario">
+            <input type="button" id="botao" value="Enviar" onclick="mostrarTabela(nome.value, salario.value)">
+        </div>
+            <div>
+                <table border="1" id="tabela"  style="background-color:whitesmoke;" cellspacing="5" cellpadding="5">
+                    <thead>
+                        <tr>
+                            <td>Nome</td>
+                            <td>INSS</td>
+                            <td>Imposto</td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </section> 
+        <script src="script.js"></script>
+</body>
+</html>
